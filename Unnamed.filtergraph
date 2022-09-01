@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.5034562211981567" y="0.4737903225806452" useARA="0"
-          uiLastX_Normal="322" uiLastY_Normal="302" uiopen_Normal="0">
+  <FILTER uid="5" x="0.4827188940092166" y="0.5564853556485355" useARA="0"
+          uiLastX_Normal="546" uiLastY_Normal="264" uiopen_Normal="0">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="C:\Users\JEREMIE-DSOUZA\ClonedStuff\JuceProjects\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3"
-            uniqueId="fbadd616" isInstrument="0" fileTime="182d59139de" infoUpdateTime="182d5dbbc0d"
+            uniqueId="fbadd616" isInstrument="0" fileTime="182da942f83" infoUpdateTime="182da970f7f"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e957c0ad"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
