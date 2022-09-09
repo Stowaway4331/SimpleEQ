@@ -61,10 +61,10 @@ void LookAndFeel::drawRotarySlider(juce::Graphics& g,
         r.setSize(strWidth + 4, rswl->getTextHeight() + 2);
         r.setCentre(bounds.getCentre());
 
-        g.setColour(Colours::black);
+        g.setColour(enabled ? Colours::black : Colours::darkgrey);
         g.fillRect(r);
 
-        g.setColour(Colours::white);
+        g.setColour(enabled ? Colours::white : Colours::lightgrey);
         g.drawFittedText(text, r.toNearestInt(), juce::Justification::verticallyCentred, 1);
     }
 }
@@ -103,7 +103,7 @@ void LookAndFeel::drawToggleButton(juce::Graphics& g,
     }
     else if (auto* analyzerButton = dynamic_cast<AnalyzerButton*>(&toggleButton))
     {
-        auto color = toggleButton.getToggleState() ? Colours::dimgrey : Colour(0u, 172u, 1u);
+        auto color = !toggleButton.getToggleState() ? Colours::dimgrey : Colour(0u, 172u, 1u);
 
         g.setColour(color);
 
