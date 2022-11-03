@@ -1,7 +1,7 @@
 # SimpleEQ
 simple 3-band EQ using C++ and JUCE framework.
 
-JUCE is a cross-platform high performance C++ framework filled with ample audio resource libraries that make DSP and UI customization very easy.
+JUCE is a cross-platform high performance C++ framework filled with ample audio handling libraries that make DSP and UI customization very easy.
 
 
 
